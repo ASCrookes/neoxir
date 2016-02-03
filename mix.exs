@@ -30,7 +30,7 @@ defmodule Neoxir.Mixfile do
   defp deps do
     [ 
       { :httpoison, "~> 0.8.0"},
-      { :exjsx, "~> 3.1"},
+      { :exjsx, github: "ASCrookes/exjsx"},
       { :meck, "~> 0.8.2", only: :test },
       { :ex_doc, "~> 0.7", only: :docs }
     ]
